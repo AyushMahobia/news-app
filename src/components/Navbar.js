@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className='sticky-top'>
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">News Hub</Link>
